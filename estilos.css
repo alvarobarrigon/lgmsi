@@ -1,0 +1,16 @@
+body{
+    background: url("img/fondo.jpg") black;
+    color: white;
+}
+td{
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+td:nth-of-type(odd){
+    color: blue;
+}
+article{
+    background: rgba(128, 128, 128, 0.51);
+
+}
