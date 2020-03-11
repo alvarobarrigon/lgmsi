@@ -10,7 +10,12 @@ td{
 td:nth-of-type(odd){
     color: blue;
 }
+img{
+    width: 100px;
+}
 article{
     background: rgba(128, 128, 128, 0.51);
-
+}
+#telefono:hover, #casa:hover{
+    background: yellow;
 }
