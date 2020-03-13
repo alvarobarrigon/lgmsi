@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Acme|Alegreya+Sans|Montserrat+Alternates&display=swap');
+
 body{
-    background: url("img/fondo.jpg") black;
+    background: url("img/fondo.jpg")black;
     color: white;
+    font-family: 'Alegreya Sans',sans-serif;
 }
 h1{
+    font-family: 'Acme',sans-serif;
     background: rgba(0, 191, 255, 0.71);
     text-shadow: 5px 3px 3px rgb(0, 0, 70);
     text-transform: uppercase;
@@ -19,6 +23,7 @@ header h2{
     width: 300px;
 }
 h2{
+    font-family: 'Monserrat Alternatives',sans-serif;
     text-align: center;
 }
 nav a{
@@ -31,17 +36,17 @@ nav a:last-of-type{
 }
 table{
     margin: 10px auto;
-    background: rgba(244, 164, 96, 0.75);
+    background: rgba(47, 45, 244, 0.75);
     border-collapse: collapse;
 }
 td{
     border: 2px solid grey;
-    color: black;
+    color: white;
 }
 
 td:nth-of-type(odd){
     text-transform: uppercase;
-    color: rgb(0, 0, 96);
+    color: rgb(255, 150, 195);
 }
 nav{
     background: rgba(255, 255, 255, 0.51);
@@ -63,10 +68,10 @@ article{
 }
 
 article:nth-of-type(odd){
-    margin-left: 200px;
+    margin-left: 15%;
 }
 article:nth-of-type(even){
-    margin-left: 700px;
+    margin-left: 60%;
 }
 div{
     width: 100%;
@@ -78,4 +83,13 @@ li,p{
     background: rgba(0, 0, 255, 0.5);
     margin: 5px;
     padding: 2px;
+}
+li{
+    list-style-image: url("img/icono.png");
+}
+li:hover{
+    background: rgba(127, 255, 212, 0.5);
+}
+nav{
+    background: linear-gradient(to right, rgba(239, 77, 162, 0.50), rgba(255, 255, 255, 0.50));
 }
