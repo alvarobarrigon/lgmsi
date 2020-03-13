@@ -2,20 +2,80 @@ body{
     background: url("img/fondo.jpg") black;
     color: white;
 }
-td{
+h1{
+    background: rgba(0, 191, 255, 0.71);
+    text-shadow: 5px 3px 3px rgb(0, 0, 70);
+    text-transform: uppercase;
+    text-align: center;
+    margin: auto;
+    width: 500px;
+}
+header h2{
+    background: rgba(0, 191, 255, 0.7);
+    text-shadow: 5px 3px 3px rgb(0, 0, 70);
+    text-transform: uppercase;
+    text-align: center;
+    margin: 10px auto ;
+    width: 300px;
+}
+h2{
+    text-align: center;
+}
+nav a{
+    padding: 0 50px;
+    border-right: solid white;
+    text-decoration: none;
+}
+nav a:last-of-type{
+    border: none;
+}
+table{
+    margin: 10px auto;
+    background: rgba(244, 164, 96, 0.75);
     border-collapse: collapse;
-    border: 1px solid black;
+}
+td{
+    border: 2px solid grey;
+    color: black;
 }
 
 td:nth-of-type(odd){
-    color: blue;
+    text-transform: uppercase;
+    color: rgb(0, 0, 96);
 }
+nav{
+    background: rgba(255, 255, 255, 0.51);
+    text-align: center;
+    font-size: 1.5em;
+}
+a{
+    color: white;
+    text-align: center;}
 img{
-    width: 100px;
+    width: 50px;
+    padding: 0 80px;
 }
 article{
-    background: rgba(128, 128, 128, 0.51);
+    background: rgba(128, 128, 128, 0.5);
+    width: 400px;
+    padding: 5px;
+    margin: 10px;
 }
-#telefono:hover, #casa:hover{
-    background: yellow;
+
+article:nth-of-type(odd){
+    margin-left: 200px;
+}
+article:nth-of-type(even){
+    margin-left: 700px;
+}
+div{
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.50);
+}
+li,p{
+    background: rgba(0, 0, 255, 0.5);
+    margin: 5px;
+    padding: 2px;
 }
